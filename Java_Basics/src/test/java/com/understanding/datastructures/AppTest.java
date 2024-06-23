@@ -1,4 +1,4 @@
-package com.understanding.datastructures;
+package Java_Basics.src.test.java.com.understanding.datastructures;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
