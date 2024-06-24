@@ -1,6 +1,7 @@
 package Java_Basics.src.main.java.com.understanding.datastructures;
 
-import java.util.ArrayList;
+import Java_Basics.src.main.java.com.understanding.datastructures.BinarySearch.CountPairs;
+
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
@@ -12,7 +13,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        BinarySearch bs = new BinarySearch();
+        CountPairs bs = new CountPairs();
         Integer[] arr = new Integer[]{-6,2,5,-2,-7,-1,3};
         bs.countPairs(Arrays.stream(arr).collect(Collectors.toList()), -2);
     }

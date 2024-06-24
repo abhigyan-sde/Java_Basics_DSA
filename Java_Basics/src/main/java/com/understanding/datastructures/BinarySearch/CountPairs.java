@@ -1,8 +1,8 @@
-package Java_Basics.src.main.java.com.understanding.datastructures;
+package Java_Basics.src.main.java.com.understanding.datastructures.BinarySearch;
 
 import java.util.Collections;
 import java.util.List;
-public class BinarySearch {
+public class CountPairs {
 
     /*
        Leetcode - 2824. Count Pairs Whose Sum is Less than Target
