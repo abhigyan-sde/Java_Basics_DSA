@@ -1,13 +1,12 @@
 package Java_Basics.src.main.java.com.understanding.datastructures.BinarySearch;
 
-import java.util.*;
+import java.util.PriorityQueue;
 
 public class K_WeakestRows {
     /*
        1337. The K Weakest Rows in a Matrix
      */
     public int[] kWeakestRows(int[][] mat, int k) {
-
         PriorityQueue<int[]> priorityQueue = new PriorityQueue<>((a,b) -> {
             if(a[0] == b[0])
                 return b[1] - a[1];

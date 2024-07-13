@@ -9,12 +9,10 @@ public class ArrayIntersection {
      */
     public List<Integer> arraysIntersection(int[] arr1, int[] arr2, int[] arr3) {
         List<Integer> result = new ArrayList<>();
-
         for(int num : arr1){
             if(exists(arr2,num) && exists(arr3,num))
                 result.add(num);
         }
-
         return result;
     }
 

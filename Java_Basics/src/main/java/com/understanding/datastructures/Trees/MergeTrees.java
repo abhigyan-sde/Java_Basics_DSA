@@ -11,7 +11,7 @@ public class MergeTrees {
      */
     public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
         /*
-        Base case for reucursion
+        Base case for recursion
          */
         if(root1 == null || root2 == null)
             return root1 == null ? root2 : root1;
